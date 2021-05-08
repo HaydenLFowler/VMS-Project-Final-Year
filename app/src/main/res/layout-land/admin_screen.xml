@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688">
+
+    <Button
+        android:id="@+id/btn_Add"
+        android:layout_width="95dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Add User"
+        app:layout_constraintEnd_toStartOf="@+id/btn_remove"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="21dp" />
+
+    <Button
+        android:id="@+id/btn_view_all"
+        android:layout_width="95dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="View All"
+        app:layout_constraintEnd_toStartOf="@+id/btn_search"
+        tools:layout_editor_absoluteY="21dp" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <ListView
+        android:id="@+id/lv_userList_display"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingTop="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Add" />
+
+    <Button
+        android:id="@+id/home_6"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_baseline_home_24"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_Add"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_search"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btn_remove"
+        android:layout_width="95dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Delete User"
+        app:layout_constraintEnd_toStartOf="@+id/btn_view_all"
+        tools:layout_editor_absoluteY="21dp" />
+
+    <EditText
+        android:id="@+id/sw_onSite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="false"
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="317dp" />
+
+    <Spinner
+        android:id="@+id/et_staff_visitor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/lv_userList_display"
+        app:layout_constraintEnd_toStartOf="@+id/btn_Add"
+        app:layout_constraintHorizontal_bias="0.433"
+        app:layout_constraintStart_toEndOf="@+id/et_name"
+        app:layout_constraintTop_toTopOf="@+id/sw_onSite" />
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="95dp"
+        android:layout_height="55dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginRight="84dp"
+        android:text="Search"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="21dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

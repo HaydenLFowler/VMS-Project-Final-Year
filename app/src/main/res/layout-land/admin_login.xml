@@ -22,6 +22,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <TableLayout
+        android:id="@+id/tableLayout"
         android:layout_width="287dp"
         android:layout_height="147dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -38,6 +39,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Username"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp" />
 
             <Space
@@ -62,6 +64,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Password"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp" />
 
             <Space
@@ -93,9 +96,22 @@
                 android:layout_width="55dp"
                 android:layout_height="55dp"
                 android:layout_marginBottom="92dp"
-                android:text="Login" />
+                android:text="Login"
+                app:backgroundTint="#8E8888" />
         </TableRow>
 
     </TableLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin Login"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

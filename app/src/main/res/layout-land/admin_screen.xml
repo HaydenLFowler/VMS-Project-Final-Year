@@ -13,6 +13,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:text="Add User"
+        app:backgroundTint="#8E8888"
         app:layout_constraintEnd_toStartOf="@+id/btn_remove"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -25,6 +26,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:text="View All"
+        app:backgroundTint="#8E8888"
         app:layout_constraintEnd_toStartOf="@+id/btn_search"
         tools:layout_editor_absoluteY="21dp" />
 
@@ -67,6 +69,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:text="Delete User"
+        app:backgroundTint="#8E8888"
         app:layout_constraintEnd_toStartOf="@+id/btn_view_all"
         tools:layout_editor_absoluteY="21dp" />
 
@@ -97,6 +100,7 @@
         android:layout_marginEnd="84dp"
         android:layout_marginRight="84dp"
         android:text="Search"
+        app:backgroundTint="#8E8888"
         app:layout_constraintEnd_toEndOf="parent"
         tools:layout_editor_absoluteY="21dp" />
 

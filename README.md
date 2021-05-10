@@ -18,4 +18,5 @@ Once you have either of these options you can run the application. If you have a
 When you have a device press the Play button where it says the device name and allow it to install. Make sure the device is landscape or you may encounter an error. 
 
 
+Additonal Emulator info or installation: https://docs.expo.io/workflow/android-studio-emulator/
 

@@ -20,3 +20,5 @@ When you have a device press the Play button where it says the device name and a
 
 Additonal Emulator info or installation: https://docs.expo.io/workflow/android-studio-emulator/
 
+The final thing to note is that on creation the admin login is set to : Username - admin    Password - elm
+
